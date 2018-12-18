@@ -1,0 +1,20 @@
+{
+	"name": "webpack-fancy-log",
+	"version": "1.0.0",
+	"description": "Compact fancy webpack logging for development",
+	"main": "lib",
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"cprog": "^1.0.0"
+	},
+	"devDependencies": {
+		"memory-fs": "^0.4.1",
+		"webpack": "^4.27.1"
+	},
+	"peerDependencies": {
+		"webpack": "^4.0.0"
+	},
+	"repository": "github:mxjp/webpack-fancy-log",
+	"author": "Max J. Polster",
+	"license": "MIT"
+}
