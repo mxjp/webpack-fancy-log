@@ -23,7 +23,8 @@ const WebpackFancyLog = require('..')
 		},
 		plugins: [
 			new WebpackFancyLog({
-				name: 'example'
+				name: 'example',
+				time: true
 			})
 		]
 	})

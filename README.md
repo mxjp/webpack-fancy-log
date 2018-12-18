@@ -9,11 +9,17 @@ const WebpackFancyLog = require('webpack-fancy-log')
 new WebpackFancyLog({
 	// The name that will be used for logging:
 	// - If falsy, no name will be displayed.
+	// - By default, no name is used.
 	name: 'example',
 
 	// The output:
 	// - If this is a tty stream, it
 	//   will display a nice progress bar.
-	output: process.stdout
+	// - Default is process.stdout
+	output: process.stdout,
+
+	// True, to output time:
+	// - Default is false.
+	time: false
 })
 ```
